@@ -205,6 +205,22 @@
                         <child internal-child="selection">
                           <object class="GtkTreeSelection"/>
                         </child>
+                        <child>
+                          <object class="GtkTreeViewColumn">
+                            <property name="title" translatable="yes">Name</property>
+                            <child>
+                              <object class="GtkCellRendererText"/>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkTreeViewColumn">
+                            <property name="title" translatable="yes">Date</property>
+                            <child>
+                              <object class="GtkCellRendererText"/>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                   </object>
